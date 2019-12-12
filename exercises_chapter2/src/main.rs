@@ -1,11 +1,12 @@
 fn main() {
-    let input = 100;
-    let mut result_float = fahrenheit_to_celsius(input);
+    let mut input = 100;
+    let result_float = fahrenheit_to_celsius(input);
 
     println!("{} Fahrenheit is {} in celsius!", input, result_float);
     println!("\n*********************\n");
 
-    let mut result_integer = fibonacci(input);
+    input = 8;
+    let result_integer = fibonacci(input);
     println!(" fibonacci of {} is: {}", input, result_integer);
     println!("\n*********************\n");
 }
